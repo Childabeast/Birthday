@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>San Jose Birthday Night Planner</title>
+    <meta
+      name="description"
+      content="A responsive comparison guide for birthday dinner, activity, dessert, and bar options around San Jose."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="San Jose Birthday Night Planner home">
+          <span class="brand-mark">★</span>
+          <span>Birthday Planner</span>
+        </a>
+        <div class="nav-links">
+          <a href="#dinner">Dinner</a>
+          <a href="#activities">Activities</a>
+          <a href="#desserts">Desserts</a>
+          <a href="#bars">Bars</a>
+          <a href="#routes">Best Routes</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">San Jose area group planning</p>
+          <h1 id="hero-title">San Jose Birthday Night Planner</h1>
+          <p class="hero-copy">
+            Compare dinner, activities, dessert, and bar ideas for a birthday night that is easy to choose,
+            easy to route, and fun for the whole group.
+          </p>
+          <div class="hero-actions" aria-label="Page shortcuts">
+            <a class="button primary" href="#dinner">Start comparing</a>
+            <a class="button secondary" href="#routes">View routes</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="Planning summary">
+          <div>
+            <span class="panel-number" id="option-count">18</span>
+            <span class="panel-label">places compared</span>
+          </div>
+          <div>
+            <span class="panel-number">5</span>
+            <span class="panel-label">ready-made routes</span>
+          </div>
+          <div>
+            <span class="panel-number">3+</span>
+            <span class="panel-label">images per card</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="summary-strip" aria-labelledby="top-picks-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Quick picks</p>
+          <h2 id="top-picks-title">Best bets at a glance</h2>
+        </div>
+        <div class="pick-grid">
+          <article class="pick-card">
+            <span>Best overall dinner</span>
+            <strong>Gyu-Kaku Japanese BBQ</strong>
+          </article>
+          <article class="pick-card">
+            <span>Best value buffet</span>
+            <strong>Tomi Sushi & Seafood Buffet</strong>
+          </article>
+          <article class="pick-card">
+            <span>Best playful activity</span>
+            <strong>Golfland USA</strong>
+          </article>
+          <article class="pick-card">
+            <span>Best nightlife bar</span>
+            <strong>Paper Plane</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="filters-wrap" aria-labelledby="filters-title">
+        <div>
+          <p class="eyebrow">Filters</p>
+          <h2 id="filters-title">Narrow the vibe</h2>
+        </div>
+        <div class="filter-chips" id="filters" aria-label="Filter options"></div>
+      </section>
+
+      <section class="planner-section" id="dinner" aria-labelledby="dinner-title">
+        <div class="section-heading">
+          <p class="eyebrow">Dinner Options</p>
+          <h2 id="dinner-title">Start with the main event</h2>
+          <p>Birthday-friendly restaurants that can handle group energy, shared food, and a longer hangout.</p>
+        </div>
+        <div class="card-grid" id="dinner-grid"></div>
+      </section>
+
+      <section class="planner-section" id="activities" aria-labelledby="activities-title">
+        <div class="section-heading">
+          <p class="eyebrow">After-Dinner Activities</p>
+          <h2 id="activities-title">Keep the night moving</h2>
+          <p>Playful, competitive, and low-pressure activities that give everyone something to do.</p>
+        </div>
+        <div class="card-grid" id="activities-grid"></div>
+      </section>
+
+      <section class="planner-section" id="desserts" aria-labelledby="desserts-title">
+        <div class="section-heading">
+          <p class="eyebrow">Dessert Spots</p>
+          <h2 id="desserts-title">Add a sweet stop</h2>
+          <p>Easy dessert choices for a second stop, birthday photos, or a relaxed finish.</p>
+        </div>
+        <div class="card-grid" id="desserts-grid"></div>
+      </section>
+
+      <section class="planner-section" id="bars" aria-labelledby="bars-title">
+        <div class="section-heading">
+          <p class="eyebrow">Fun Bars</p>
+          <h2 id="bars-title">Finish with drinks</h2>
+          <p>Conversation-friendly cocktail spots and interactive bars for a more adult birthday night.</p>
+        </div>
+        <div class="card-grid" id="bars-grid"></div>
+      </section>
+
+      <section class="planner-section route-section" id="routes" aria-labelledby="routes-title">
+        <div class="section-heading">
+          <p class="eyebrow">Suggested Birthday Routes</p>
+          <h2 id="routes-title">Ready-made plans</h2>
+          <p>Copy a route, drop it into the group chat, and let people vote.</p>
+        </div>
+        <div class="route-grid" id="routes-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Links marked “Add link later” are placeholders for official pages that still need to be confirmed.
+        Directions use Google Maps search links.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
